@@ -1,0 +1,19 @@
+---
+name: Pull Request Labeler
+on:
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  contents: read
+
+jobs:
+  apply-file-based-labels:
+    permissions:
+      pull-requests: write
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v5.0.0
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"

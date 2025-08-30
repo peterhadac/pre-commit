@@ -1,0 +1,15 @@
+---
+docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '*.md'
+ci/config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - .pre-commit-config.yaml
+          - .github/**
+          - .gitignore
+pre-commit-hooks:
+  - changed-files:
+      - any-glob-to-any-file:
+          - .pre-commit-hooks.yaml
