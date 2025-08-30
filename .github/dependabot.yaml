@@ -3,5 +3,7 @@ version: 2
 updates:
   - package-ecosystem: github-actions
     directory: /
+    commit-message:
+      prefix: ⬆️
     schedule:
       interval: daily
