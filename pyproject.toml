@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pre-commit-kubediagrams"
+version = "0.0.1"
+dependencies = [
+    "KubeDiagrams"
+]
