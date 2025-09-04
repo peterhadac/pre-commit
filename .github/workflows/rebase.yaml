@@ -27,7 +27,7 @@ jobs:
           ref: ${{ inputs.branch }}
 
       - name: Rebase ${{ inputs.branch }}
-        uses: martincostello/rebaser@v1
+        uses: martincostello/rebaser@v2
         id: rebase
 
       - name: Push changes
