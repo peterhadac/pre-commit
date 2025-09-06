@@ -15,8 +15,8 @@ Pre-commit hook created to run [KubeDiagrams]
 ```yaml
 ---
 repos:
-  -   repo: https://github.com/peterhadac/pre-commit
-      rev: v0.0.1
-      hooks:
+  - repo: https://github.com/peterhadac/pre-commit
+    rev: v0.0.1
+    hooks:
       - id: helm-diagrams
 ```
