@@ -4,8 +4,7 @@ My pre-commit hooks.
 
 ## helm-diagrams
 
-Pre-commit hook created to run [KubeDiagrams]
-(<https://github.com/philippemerle/KubeDiagrams>)
+Pre-commit hook created to run [KubeDiagrams](<https://github.com/philippemerle/KubeDiagrams>)
  with every commit to keep documentation up-to-date.
 
 ### Usage
