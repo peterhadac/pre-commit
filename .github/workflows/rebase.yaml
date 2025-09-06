@@ -1,5 +1,5 @@
 ---
-name: rebase
+name: Rebase
 
 on:
   workflow_dispatch:
