@@ -3,12 +3,13 @@
   name: Generate Helm Diagrams
   description: |
       This hook generate helm diagrams using KubeDiagrams
-  entry: helm-diagrams --include-crds
+  entry: helm-diagrams
   language: python
   always_run: true
   files: ^chart/.*\.ya?ml$
   pass_filenames: false
   args:
     - chart
-    - -o
+    - --output
     - chart/chart-diagram.png
+    - --include-crds=true
